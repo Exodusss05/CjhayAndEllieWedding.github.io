@@ -102,12 +102,10 @@
   transform: scale(1.1);
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .webpage-story,
   .webpage-story-welcome {
-    width: 90%; /* Adjusted for smaller screens */
-    top: 10%; /* Adjusted for smaller screens */
+    width: 90%;
   }
 
   .webpage-story-information img {
