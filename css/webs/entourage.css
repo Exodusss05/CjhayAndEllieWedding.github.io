@@ -93,19 +93,27 @@
   text-decoration: none;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
   .webpage-entourage {
-    font-family: Poppins, sans-serif;
+    width: 80%;
+    top: 10%;
+  }
+
+  .webpage-entourage-wrapmain-parents,
+  .webpage-entourage-wrapmain-psponsors {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .webpage-entourage {
     width: 90%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 20%;
-    padding: 0.5%;
-    text-align: center;
-    border-top-left-radius: 1vh;
-    border-top-right-radius: 1vh;
+    top: 5%;
+  }
+
+  .webpage-entourage-wrapmain-parents,
+  .webpage-entourage-wrapmain-psponsors {
+    grid-template-columns: 100%;
   }
 }

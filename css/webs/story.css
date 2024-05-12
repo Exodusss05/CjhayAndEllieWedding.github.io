@@ -102,8 +102,27 @@
   transform: scale(1.1);
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
+  .webpage-story,
+  .webpage-story-welcome {
+    width: 80%;
+    top: 10%;
+  }
+
+  .webpage-story-information img {
+    max-height: 250px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .webpage-story,
   .webpage-story-welcome {
     width: 90%;
+    top: 5%;
+  }
+
+  .webpage-story-information img {
+    max-height: 250px !important;
   }
 }
