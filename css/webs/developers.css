@@ -1,0 +1,70 @@
+.webpage-developers {
+  display: none;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.webpage-developers-title {
+  font-size: 35px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.webpage-developers-information {
+  margin-bottom: 2%;
+}
+
+.webpage-developers-information img {
+  /* border-radius: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 100px !important;
+  height: 100px !important; /* Optionally set the height */
+  border: 3px rgb(25, 27, 51) solid;
+  transition: transform 0.3s ease-in-out;
+}
+
+.webpage-developers-information img:hover {
+  transform: scale(1.1);
+}
+
+.webpage-developers-information-title {
+  font-family: Poppins, sans-serif;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
+
+.webpage-developers-information-details {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: rgb(190, 190, 190);
+  text-align: center;
+}
+
+.webpage-developers-information-socmeds:hover {
+  color: red;
+  background-color: transparent;
+}
+
+.webpage-developers-information-details a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .webpage-developers-information img {
+    border-radius: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 15%;
+    border: 3px rgb(25, 27, 51) solid;
+  }
+}

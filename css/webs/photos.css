@@ -1,0 +1,125 @@
+.webpage-photos {
+  display: none;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.webpage-photos-welcome {
+  font-family: Poppins, sans-serif;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  padding: 0.5%;
+  text-align: center;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+
+.webpage-photos-welcome-title {
+  font-size: 50px;
+  font-family: "Sofia", cursive;
+  color: white;
+  margin: 10px;
+}
+
+.webpage-photos-welcome-contents {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 18px;
+  text-align: center;
+}
+
+.webpage-photos-info {
+  margin-bottom: 2%;
+}
+
+.webpage-photos-info img {
+  /* border-radius: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: auto !important;
+  max-height: 550px;
+  border: 3px #4f5a44ef solid;
+  transition: transform 0.3s ease-in-out;
+}
+
+.webpage-photos-info img:hover {
+  transform: scale(1.1);
+}
+
+/* PHOTOS */
+.webpage-photos-entry {
+  /* border-radius: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: auto !important;
+  max-height: 355px !important;
+  border: 3px #4f5a44ef solid;
+  transition: transform 0.3s ease-in-out;
+}
+
+.webpage-photos-entry:hover {
+  transform: scale(1.1);
+}
+
+.webpage-photos-wrapmain {
+  margin-top: 0.5rem;
+  max-width: 0 auto;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center; /* Binago natin ang justify-content para sa pag-center ng mga larawan horizontally */
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
+.webpage-photos-information {
+  margin-bottom: 2%;
+}
+
+.webpage-photos-information img {
+  /* border-radius: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  max-width: auto !important;
+  max-height: 350px !important;
+  /* border: 3px #9caf88ef solid; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.webpage-photos-information img:hover {
+  transform: scale(1.1);
+}
+
+.webpage-photos-entry:nth-last-child(-n+2) {
+  justify-self: center; /* Pumipili ng dalawang huling mga element at nagce-center */
+}
+
+@media (max-width: 768px) {
+  .webpage-photos-welcome {
+    font-family: Poppins, sans-serif;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    padding: 0.5%;
+    text-align: center;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+  }
+}

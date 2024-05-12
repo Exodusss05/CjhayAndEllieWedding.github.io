@@ -1,0 +1,111 @@
+.webpage-entourage {
+  display: none;
+  font-family: Poppins, sans-serif;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  padding: 0.5%;
+  text-align: center;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+
+.webpage-entourage-title {
+  /* font-size: 50px; */
+  /* font-family: "Sofia", cursive; */
+  color: white;
+  margin: 10px;
+}
+
+.webpage-entourage-contents {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 18px;
+  text-align: center;
+}
+
+.nixie-one-regular {
+  font-family: "Nixie One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 30px;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parents {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.webpage-entourage-wrapmain-parents {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 25% 25%;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
+.webpage-entourage-wrapmain-psponsors {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 70%;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
+.webpage-entourage-entry {
+  background-color: #758564ef;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 2px transparent solid;
+}
+
+.webpage-entourage-details {
+  color: #F0F0F0;
+  text-align: center;
+}
+
+.webpage-entourage-details a {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .webpage-entourage {
+    font-family: Poppins, sans-serif;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    padding: 0.5%;
+    text-align: center;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+  }
+}
