@@ -192,3 +192,25 @@ body {
   color: #F0F0F0;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .webpage-menu-options {
+    font-size: 16px;
+  }
+
+  .webpage-selection select {
+    font-size: 16px;
+  }
+
+  .webpage-wrapmain {
+    grid-template-columns: 100%;
+  }
+
+  .webpage-information img {
+    max-height: 250px !important;
+  }
+
+  .webpage-information-details {
+    font-size: 14px;
+  }
+}

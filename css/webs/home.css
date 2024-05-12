@@ -28,17 +28,15 @@
 
 @media (max-width: 768px) {
   .webpage-welcome {
-    font-family: Poppins, sans-serif;
     width: 90%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 20%;
-    padding: 0.5%;
-    text-align: center;
-    border-top-left-radius: 1vh;
-    border-top-right-radius: 1vh;
+    top: 10%;
+  }
+
+  .webpage-welcome-title {
+    font-size: 40px;
+  }
+
+  .webpage-welcome-contents {
+    font-size: 16px;
   }
 }
