@@ -111,7 +111,7 @@
   }
 
   .webpage-story-information img {
-    max-height: 250px !important;
+    max-height: 40vh !important;
   }
 }
 
@@ -123,6 +123,6 @@
   }
 
   .webpage-story-information img {
-    max-height: 250px !important;
+    max-height: 30vh !important;
   }
 }
