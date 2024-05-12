@@ -106,20 +106,8 @@
 @media (max-width: 768px) {
   .webpage-story,
   .webpage-story-welcome {
-    width: 80%;
-    top: 10%;
-  }
-
-  .webpage-story-information img {
-    max-height: 40vh !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .webpage-story,
-  .webpage-story-welcome {
-    width: 90%;
-    top: 5%;
+    width: 90%; /* Adjusted for smaller screens */
+    top: 10%; /* Adjusted for smaller screens */
   }
 
   .webpage-story-information img {
