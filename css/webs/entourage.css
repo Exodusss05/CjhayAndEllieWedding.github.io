@@ -40,11 +40,35 @@
   font-style: normal;
 }
 
-.parents {
+.header {
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
+}
+
+.webpage-entourage-wrapmain-double {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 25% 25%;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
+.webpage-entourage-wrapmain-triple {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
 }
 
 .webpage-entourage-wrapmain-parents {
