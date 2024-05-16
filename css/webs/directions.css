@@ -1,0 +1,114 @@
+.webpage-directions {
+  display: none;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Poppins, sans-serif;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  padding: 0.5%;
+  text-align: center;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+
+.webpage-directions-welcome {
+  font-family: Poppins, sans-serif;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  padding: 0.5%;
+  text-align: center;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+
+.webpage-directions-welcome-title {
+  font-size: 50px;
+  font-family: "Sofia", cursive;
+  color: white;
+  margin: 10px;
+}
+
+.webpage-directions-welcome-contents {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 18px;
+  text-align: center;
+}
+
+.webpage-directions-information {
+  margin-bottom: 2%;
+}
+
+/* PHOTOS */
+.webpage-directions-entry {
+  background-color: #758564ef;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 2px transparent solid;
+}
+
+.webpage-directions-entry:hover {
+  background-color: #4e5842;
+  border-bottom-color: white;
+}
+
+.webpage-directions-wrapmain {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  /* grid-template-columns: 60% 60% 60%; */
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
+.webpage-directions-information {
+  margin-bottom: 2%;
+}
+
+.webpage-directions-information img {
+  /* border-radius: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: auto !important;
+  max-height: 70vh !important;
+  border: 3px #9caf88ef solid;
+  transition: transform 0.3s ease-in-out;
+}
+
+.webpage-directions-information img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .webpage-directions,
+  .webpage-directions-welcome {
+    width: 90%;
+  }
+
+  .webpage-directions-information img {
+    max-height: 30vh !important;
+  }
+}

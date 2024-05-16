@@ -80,17 +80,6 @@ body {
   margin: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-  .webpage-menu-options {
-    font-size: 20px;
-  }
-
-  .webpage-selection select {
-    font-size: 20px;
-  }
-}
-
-
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -208,9 +197,34 @@ body {
 
   .webpage-information img {
     max-height: 250px !important;
+    max-width: 250px !important;
   }
 
   .webpage-information-details {
     font-size: 14px;
+  }
+
+  .webpage-column {
+    margin: 0;
+    padding: 0;
+  }
+
+  .webpage-menu-options {
+    font-size: 16px;
+    padding: 0.25rem;
+    margin: 0.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .webpage-column {
+    margin: 0;
+    padding: 0;
+  }
+
+  .webpage-menu-options {
+    font-size: 10px;
+    padding: 0.1rem;
+    margin: 0.1rem;
   }
 }
