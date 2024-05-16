@@ -135,6 +135,8 @@
     width: auto;
   }
 
+  .webpage-entourage-wrapmain-double,
+  .webpage-entourage-wrapmain-triple,
   .webpage-entourage-wrapmain-parents,
   .webpage-entourage-wrapmain-psponsors {
     grid-template-columns: 100%;
