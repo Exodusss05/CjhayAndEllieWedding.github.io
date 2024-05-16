@@ -143,6 +143,6 @@
   .webpage-entourage-wrapmain-triple,
   .webpage-entourage-wrapmain-parents,
   .webpage-entourage-wrapmain-psponsors {
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
   }
 }
