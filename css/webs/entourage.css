@@ -15,8 +15,6 @@
 }
 
 .webpage-entourage-title {
-  /* font-size: 50px; */
-  /* font-family: "Sofia", cursive; */
   color: white;
   margin: 10px;
 }
@@ -120,7 +118,7 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .webpage-entourage {
-    width: 80%;
+    width: auto;
     top: 10%;
   }
 
@@ -132,11 +130,17 @@
 
 @media (max-width: 480px) {
   .webpage-entourage {
-    width: 90%;
+    width: auto;
   }
 
+  .webpage-entourage-details {
+    font-size: 12px;
+  }
+
+  .webpage-entourage-wrapmain-double,
+  .webpage-entourage-wrapmain-triple,
   .webpage-entourage-wrapmain-parents,
   .webpage-entourage-wrapmain-psponsors {
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
   }
 }
