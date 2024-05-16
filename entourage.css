@@ -135,6 +135,10 @@
     width: auto;
   }
 
+  .webpage-entourage-details {
+    font-size: 12px; /* Further adjust font size for smaller screens */
+  }
+
   .webpage-entourage-wrapmain-double,
   .webpage-entourage-wrapmain-triple,
   .webpage-entourage-wrapmain-parents,
