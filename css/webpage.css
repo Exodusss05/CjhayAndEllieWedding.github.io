@@ -280,3 +280,19 @@ body {
     left: 92.5%;
   }
 }
+
+@media (max-width: 467px) {
+  .flower-design-left {
+    width: 100px;
+    height: 100px; 
+    top: 25px;
+    left: 7.5%;
+  }
+
+  .flower-design-right {
+    width: 100px;
+    height: 100px; 
+    top: 25px;
+    left: 92.5%;
+  }
+}
