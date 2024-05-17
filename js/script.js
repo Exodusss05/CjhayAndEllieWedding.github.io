@@ -22,8 +22,8 @@ $(document).ready(function() {
       SwitchWebPage('webpage-entourage')
     })
 
-    $('#qanda-button').click(async function() {
-      SwitchWebPage('webpage-qanda')
+    $('#questions-button').click(async function() {
+      SwitchWebPage('webpage-questions')
     })
 
     $('#directions-button').click(async function() {
@@ -57,8 +57,8 @@ function hidePopup() {
 function SwitchWebPage(page) {
   if (CurrentWebPage == page) { return }
   
-  $('.' + CurrentWebPage).fadeOut(500)
-  $('.' + page).fadeIn(500)
+  $('.' + CurrentWebPage).fadeOut(300)
+  $('.' + page).fadeIn(300)
   CurrentWebPage = page
   console.log(CurrentWebPage)
 }

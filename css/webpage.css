@@ -19,6 +19,30 @@ body {
   justify-content: center;
 }
 
+.flower-design-left {
+  width: 280px;
+  height: 280px; 
+  background-image: url('../image/flower-left.png');
+  background-size: cover;
+  position: absolute;
+  top: 20px;
+  left: 7.5%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.flower-design-right {
+  width: 280px;
+  height: 280px; 
+  background-image: url('../image/flower-right.png');
+  background-size: cover;
+  position: absolute;
+  top: 20px;
+  left: 92.5%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
 .webpage-menu-options {
   display: inline-flex;
   color: #9CAF88;
@@ -214,6 +238,20 @@ body {
     padding: 0.25rem;
     margin: 0.25rem;
   }
+
+  .flower-design-left {
+    width: 100px;
+    height: 100px; 
+    top: 55px;
+    left: 7.5%;
+  }
+
+  .flower-design-right {
+    width: 100px;
+    height: 100px; 
+    top: 55px;
+    left: 92.5%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -226,5 +264,19 @@ body {
     font-size: 10px;
     padding: 0.1rem;
     margin: 0.1rem;
+  }
+
+  .flower-design-left {
+    width: 100px;
+    height: 100px; 
+    top: 10px;
+    left: 7.5%;
+  }
+
+  .flower-design-right {
+    width: 100px;
+    height: 100px; 
+    top: 10px;
+    left: 92.5%;
   }
 }
