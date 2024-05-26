@@ -50,7 +50,7 @@
 }
 
 .webpage-directions-header {
-  font-family: "Platypi", serif;
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -58,11 +58,11 @@
 }
 
 .webpage-directions-description {
-  font-family: "Caveat", cursive;
+  font-family: "Platypi", serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .webpage-directions-wrapmain-single {
@@ -134,7 +134,7 @@
   }
 
   .webpage-directions-description {
-    font-size: 20px;
+    font-size: 15px;
 
   }
 

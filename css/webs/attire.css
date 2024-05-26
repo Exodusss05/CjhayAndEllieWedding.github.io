@@ -50,7 +50,7 @@
 }
 
 .webpage-attire-header {
-  font-family: "Platypi", serif;
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -58,11 +58,11 @@
 }
 
 .webpage-attire-description {
-  font-family: "Caveat", cursive;
+  font-family: "Platypi", serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .webpage-attire-wrapmain-single {
