@@ -288,6 +288,13 @@ body {
     left: 7.5%;
   }
 
+  .flower-design-center {
+    width: 100px;
+    height: 100px; 
+    top: 50px;
+    left: 50%;
+  }
+
   .flower-design-right {
     width: 100px;
     height: 100px; 
@@ -313,6 +320,13 @@ body {
     height: 100px; 
     top: 10px;
     left: 7.5%;
+  }
+
+  .flower-design-center {
+    width: 100px;
+    height: 100px; 
+    top: 20px;
+    left: 50%;
   }
 
   .flower-design-right {
