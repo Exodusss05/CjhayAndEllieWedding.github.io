@@ -71,9 +71,57 @@ body {
   transform: translateX(-50%);
 }
 
+.container {
+  padding: 5px;
+  /* border-top: 5px solid #000;
+  border-bottom: 5px solid #000; */
+  text-align: center;
+}
+
+.date {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.day, .time {
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.day::before, .time::before{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.day::after, .time::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.wedding-date {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 13% 13% 13%;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  flex-direction: auto;
+}
+
 .flower-design-center {
-  width: 280px;
-  height: 280px; 
+  width: 230px;
+  height: 230px; 
   background-image: url('../image/flower-center.png');
   background-size: contain;
   background-position: center;
@@ -248,7 +296,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1238px) {
   .webpage-menu-options {
     font-size: 16px;
   }
